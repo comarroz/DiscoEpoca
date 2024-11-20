@@ -12,41 +12,50 @@
 
 <!Doctype HTML>
 
-     <head>
-        <meta charset="UTF-8"/>
-        <title>Página Principal</title>        
-    </head>
+            <head>
+                <meta charset="UTF-8"/>
+                <title>Página Principal</title>        
+            </head>
 
-                <body>
-                    <form method="POST" action="CadastrarPessoa.php">
-                        <label>Código</label>
-                        <input type="number" name="codigo" id="codigo"><br><br>
+    
+                    <body style="background-image:url('imagem/discos1.jpg');">
 
-                        <label>Nome</label>
-                        <input type="number" name="nome" id="nome"><br><br>
+                            <form method="POST" action="CadastrarPessoa.php">
+                                                            <label>Código</label>
+                                                            <input type="number" name="codigo" id="codigo"><br><br>
 
-                        <label>Endereço</label>
-                        <input type="number" name="endereco" id="endereco"><br><br>
+                                                            <label>Nome</label>
+                                                            <input type="number" name="nome" id="nome"><br><br>
 
-                        <label>Telefone</label>
-                        <input type="number" name="telefone" id="telefone"><br><br>
+                                                            <label>Endereço</label>
+                                                            <input type="number" name="endereco" id="endereco"><br><br>
 
-                        <button type="submit">Cadastrar
-                            <?php
-                                $cadastrar = new CadastrarPessoa();
+                                                            <label>Telefone</label>
+                                                            <input type="number" name="telefone" id="telefone"><br><br>
 
-                                $codigo = $_POST['codigo'];
+                                                            <button type="submit">Cadastrar
+                                                                <?php
+                                                                    $cadastrar = new CadastrarPessoa();
 
-                            ?>
-                        </button>
-                        
-                    </form><!--fim do form-->
-                    <br><br>
-                    <a href="index.php"><button>Voltar</button></a>
+                                                                    $codigo = $_POST['codigo'];
+
+                                                                ?>
+                                                            </button>
+                                                        
+                            </form><!--fim do form-->
+                            <br><br>
+                            <a href="index.php"><button>Voltar</button></a>
+
+
+
+                    </body>
+
                     
+                                           
+                        
 
 
-                </body>
+                    
 
 
 

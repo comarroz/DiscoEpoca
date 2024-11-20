@@ -10,9 +10,11 @@
 
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="estilo1.css">
         <tittle>Página Atualizar</tittle>
     </head>
-    <body>
+    <body style="background-image:url('imagem/discos1.jpg');">
         <form method="POST">
             <label>Código: </label>
             <input type="number" name="codigo" id="codigo"/><br><br>
