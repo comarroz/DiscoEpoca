@@ -6,10 +6,9 @@
 
     class Inserir{
         function cadastrarPessoa(
-                                       Conexão $conexao,
+                                       Conexao $conexao,
                                        int $codigo,
                                        string $nome,
-                       
                                        string $endereco,
                                        string $telefone
 
